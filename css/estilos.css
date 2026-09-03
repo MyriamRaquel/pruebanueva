@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.formatoencabezado {
+  display: flex;
+  justify-content: space-between;
+  background-color: blueviolet;
+  align-items: center;
+  img {
+    width: 150px;
+height: 150px;
+  }
+}
+.formatomenu {
+  display: flex;
+  li {
+    margin: 10px 30px;
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+    &:hover {
+      color: azure;
+      font-size: 3rem;
+    }
+  }
+}
